@@ -6,7 +6,7 @@ import { graphql } from 'react-apollo';
 // help to bond query and component
 
 import query from '../queries/fetchSongs';
-
+// query all the songs/ fetch songs to get all list of songs
 
 class SongList extends Component {
 
