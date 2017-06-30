@@ -40,10 +40,10 @@ const mutation = gql`
       lyrics {
         id
         content
+        likes
       }
     }
   }
 `;
-
 
 export default graphql(mutation)(LyricCreate);
